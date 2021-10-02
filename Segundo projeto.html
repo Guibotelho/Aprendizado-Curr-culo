@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Consumo</title>
+    <link href="styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="app" class="app">
+        <div class="content-title">
+            <h1>Calculo Consumo Energia em KW</h1>
+        </div>
+        <div class="content-result">
+            <p>
+                Consumo (total) KW:
+                <span id="result"></span>
+            </p>
+        </div>
+        <div class="content-result">
+            <p>
+                Média Simples de Consumo KW:
+                <span id="result-moedas"></span>
+
+            </p>
+        </div>
+        <div class="content-form">
+            <form>
+                <input type="number" min="0" id="n1" placeholder="Digite o valor Janeiro" required/>
+
+                <input type="number" min="0" id="n2" placeholder="Digite o valor Favereiro" required />
+
+                <input type="number" min="0" id="n3" placeholder="Digite o valor Março" required />
+
+                <input type="number" min="0" id="n4" placeholder="Digite o valor Abril" required />
+
+                <input type="number" min="0" id="n5" placeholder="Digite o valor Maio" required />
+
+                <input type="number" min="0" id="n6" placeholder="Digite o valor Junho" required/>
+
+                <input type="number" min="0" id="n7" placeholder="Digite o valor Julho" required />
+
+                <input type="number" min="0" id="n8" placeholder="Digite o valor Agosto" required />
+
+                <input type="number" min="0" id="n9" placeholder="Digite o valor Setembro" required />
+
+                <input type="number" min="0" id="n10" placeholder="Digite o valor Outubro" required />
+
+                <input type="number" min="0" id="n11" placeholder="Digite o valor Novembro" required />
+
+                <input type="number" min="0" id="n12" placeholder="Digite o valor Dezembro" required />
+
+                <button type="submit" class="btn-app">Calcular</button>
+
+            </form>
+        </div>
+    </div>
+
+    </div>
+
+    <div id="app" class="app">
+        <div class="content-result">
+            <h1>
+                Qual a forma de calcular uma Média Simples:
+            </h1>
+        </div>
+    </div>
+
+    <div id="app" class="app">
+        <div class="textobase">
+            <p>Média - A média é o somatório de todos os elementos da amostra dividido pela quantidade de elementos. Ex: As notas de maria foram 5 - 6 - 10. Qual é a media? R : (5+6+10) / 3 = 7. O conceito e a ideia de média estão sempre relacionados com
+                a soma dos valores de um determinado conjunto de medidas, dividindo-se o resultado dessa soma pela quantidade dos valores que foram somados. Esse procedimento é o que definimos como média aritmética simples e que estamos acostumados a
+                aplicar nas estimativas que fazemos diariamente.
+            </p>
+        </div>
+    </div>
+
+
+    <script src="site.js">
+    </script>
+
+</body>
+
+</html>
